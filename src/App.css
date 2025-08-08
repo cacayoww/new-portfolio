@@ -399,9 +399,14 @@
     padding: 0;
   }
 
+  .experience-box:hover,
   .profile-img:hover img,
   .box-img img:hover {
     transform: none;
+  }
+
+  .experience-box:hover {
+    box-shadow: none;
   }
 }
 
