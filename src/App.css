@@ -398,6 +398,11 @@
   .container {
     padding: 0;
   }
+
+  .profile-img:hover img,
+  .box-img img:hover {
+    transform: none;
+  }
 }
 
 @media (max-width: 992px) {
