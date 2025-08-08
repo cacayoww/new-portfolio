@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+  font-family: 'Poppins', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  scroll-behavior: smooth;
+}
+
+:root[data-theme="light"] {
+  --text: rgb(19, 20, 21);
+  --background: rgb(238, 240, 241);
+  --primary: rgb(57, 68, 76);
+  --secondary: rgb(157, 176, 190);
+  --accent: rgb(79, 111, 135);
+}
+:root[data-theme="dark"] {
+  --text: rgb(234, 235, 236);
+  --background: rgb(14, 16, 17);
+  --primary: rgb(179, 190, 198);
+  --secondary: rgb(65, 84, 98);
+  --accent: rgb(120, 152, 176);
+}
+
+
+body {
+  margin: 0;
+  color: var(--text);
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
