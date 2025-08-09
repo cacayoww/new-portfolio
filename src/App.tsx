@@ -163,11 +163,15 @@ function App() {
 
         <section id="projects">
           <h1 className="fade-in-down">My Projects</h1>
+          <h3 className="fade-in-down-delay-1">Mobile & Web Development</h3>
           <div className="container">
             <ProjectBox image={project1Image} title="Telyu Kopi" />
             <ProjectBox image={project2Image} title="New iSmart" />
             <ProjectBox image={project3Image} title="Humic Letter" />
             <ProjectBox image={project4Image} title="PlanifyMe" />
+          </div>
+          <h3 className="fade-in-down-delay-1">AI & ML Modelling</h3>
+          <div className="container">
             <ProjectBox image={project5Image} title="CCTV Detection" />
             <ProjectBox image={project6Image} title="Lead Time Prediction" />
           </div>
