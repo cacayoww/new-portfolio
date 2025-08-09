@@ -424,13 +424,13 @@
   }
 
   .experience-box:hover,
+  .experience-box.fade-in-down-delay-1:hover,
+  .experience-box.fade-in-down-delay-2:hover,
+  .experience-box.fade-in-down-delay-3:hover,
+  .experience-box.fade-in-down-delay-4:hover,
   .profile-img:hover img,
   .box-img img:hover {
-    transform: none;
-  }
-
-  .experience-box:hover {
-    box-shadow: none;
+    transform: none !important;
   }
 
   .home-container {
