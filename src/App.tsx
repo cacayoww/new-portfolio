@@ -3,7 +3,7 @@ import "./App.css";
 import ExperienceBox from "./ExperienceBox";
 import ProjectBox from "./ProjectBox";
 import CertificateBox from "./CertificateBox";
-import project1Image from "./assets/projects/project-1-1.jpg";
+import telyuKopi from "./assets/projects/telyu-kopi.png";
 import project2Image from "./assets/projects/project-2-1.png";
 import project3Image from "./assets/projects/project-3-1.png";
 import project4Image from "./assets/projects/project-4-1.png";
@@ -165,7 +165,7 @@ function App() {
           <h1 className="fade-in-down">My Projects</h1>
           <h3 className="fade-in-down-delay-1">Mobile & Web Development</h3>
           <div className="container">
-            <ProjectBox image={project1Image} title="Telyu Kopi" />
+            <ProjectBox image={telyuKopi} title="Telyu Kopi" />
             <ProjectBox image={project2Image} title="New iSmart" />
             <ProjectBox image={project3Image} title="Humic Letter" />
             <ProjectBox image={project4Image} title="PlanifyMe" />
