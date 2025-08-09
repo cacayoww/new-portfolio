@@ -153,8 +153,8 @@ function App() {
         <section id="experience">
           <h1 className="fade-in-down">Experience</h1>
           <div className="experience-container">
-            <ExperienceBox title="Front End Developer" company="Telkom Indonesia" period="Jun 2024 - Aug 2024" />
             <ExperienceBox title="Mobile Developer" company="HUMIC (Human Centric) Engineering Research Center" period="Feb 2025 - May 2025" />
+            <ExperienceBox title="Front End Developer" company="Telkom Indonesia" period="Jun 2024 - Aug 2024" />
             <ExperienceBox title="Practicum Assistant" company="Informatics Laboratory Telkom University" period="Feb 2023 - Jun 2025" />
             <ExperienceBox title="Teaching Assistant" company="Telkom University" period="Feb 2023 - Jun 2025" />
             <ExperienceBox title="Student Mentor" company="KONTENT HIMA IF Telkom University" period="Oct 2022 - Jan 2024" />
