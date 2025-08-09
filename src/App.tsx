@@ -18,6 +18,11 @@ import asprakDpbo from "./assets/certificates/asprak-dpbo.jpg";
 import asprakStd from "./assets/certificates/asprak-std.jpg";
 import pemateri from "./assets/certificates/pemateri.jpg";
 import profile from "./assets/profile/profile.jpg";
+import kontent from "./assets/companies/kontent.jfif";
+import humic from "./assets/companies/humic.jfif";
+import telkom from "./assets/companies/telkom.jfif";
+import iflab from "./assets/companies/iflab.jfif";
+import telu from "./assets/companies/telu.jfif";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -153,11 +158,11 @@ function App() {
         <section id="experience">
           <h1 className="fade-in-down">Experience</h1>
           <div className="experience-container">
-            <ExperienceBox title="Mobile Developer" company="HUMIC (Human Centric) Engineering Research Center" period="Feb 2025 - May 2025" />
-            <ExperienceBox title="Front End Developer" company="Telkom Indonesia" period="Jun 2024 - Aug 2024" />
-            <ExperienceBox title="Practicum Assistant" company="Informatics Laboratory Telkom University" period="Feb 2023 - Jun 2025" />
-            <ExperienceBox title="Teaching Assistant" company="Telkom University" period="Feb 2023 - Jun 2025" />
-            <ExperienceBox title="Student Mentor" company="KONTENT HIMA IF Telkom University" period="Oct 2022 - Jan 2024" />
+            <ExperienceBox title="Mobile Developer" company="HUMIC (Human Centric) Engineering Research Center" period="Feb 2025 - May 2025" logo={humic} />
+            <ExperienceBox title="Front End Developer" company="Telkom Indonesia" period="Jun 2024 - Aug 2024" logo={telkom} />
+            <ExperienceBox title="Practicum Assistant" company="Informatics Laboratory Telkom University" period="Feb 2023 - Jun 2025" logo={iflab} />
+            <ExperienceBox title="Teaching Assistant" company="Telkom University" period="Feb 2023 - Jun 2025" logo={telu} />
+            <ExperienceBox title="Student Mentor" company="KONTENT HIMA IF Telkom University" period="Oct 2022 - Jan 2024" logo={kontent} />
           </div>
         </section>
 
