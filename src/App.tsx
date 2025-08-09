@@ -182,7 +182,7 @@ function App() {
           <h3 className="fade-in-down-delay-1">Academic & Research</h3>
           <div className="container">
             <CertificateBox image={bestPaper} title="Best Paper Award - ICoICT 2025" />
-            <CertificateBox image={toefl} title="Conference Presenter - ICoICT 2025" />
+            {/* <CertificateBox image={toefl} title="Conference Presenter - ICoICT 2025" /> */}
             <CertificateBox image={hki} title="HKI Basis Data CCTV Seatbelt Detection" />
           </div>
           <h3 className="fade-in-down-delay-1">Certifications & Programs</h3>
